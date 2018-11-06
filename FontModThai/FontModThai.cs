@@ -104,6 +104,23 @@ namespace FontModThai
         }
     }
 
+   
+    //[HarmonyPatch(typeof(WindowManage), "ShowGongFaMassage")]
+    //public static class WindowManage_Patch
+    //{
+        
+    //    private static void Postfix(ref Text ___itemLevelText,int skillId, int skillTyp, int levelTyp = -1, int actorId = -1, Toggle toggle = null)
+    //    {
+            
+
+    //         ___itemLevelText.resizeTextForBestFit = true;
+
+
+          
+
+    //    }
+    //}
+
  
 
     // Token: 0x02000003 RID: 3
@@ -124,8 +141,7 @@ namespace FontModThai
             int change = component.fontSize + Main.settings.fontSizeChange;
 
             component.font = mfont;
-            
-
+           
             if (GameObjectConstant.Check(name))
             {
                 component.fontSize = change;
