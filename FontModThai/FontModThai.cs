@@ -124,7 +124,7 @@ namespace FontModThai
             int change = component.fontSize + Main.settings.fontSizeChange;
 
             component.font = mfont;
-            component.resizeTextForBestFit = true;
+            
 
             if (GameObjectConstant.Check(name))
             {

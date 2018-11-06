@@ -1,8 +1,7 @@
 ﻿{
-  "Id": "TestMod",
-  "DisplayName": "Test Mod",
-  "Author": "newman55",
+  "Id": "FontModThai",
+  "DisplayName": "FontModThai",
   "Version": "1.0.0",
-  "AssemblyName": "TestMod.dll",
-  "EntryMethod": "TestMod.Main.Load"
+  "AssemblyName": "FontModThai.dll",
+  "EntryMethod": "FontModThai.Main.Load"
 }
